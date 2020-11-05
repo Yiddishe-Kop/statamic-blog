@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "664c7de6344c07ce0c86aae5373d580c",
+    "content-hash": "76b95cdbae17fe5ad803c6529dac09c3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3370,16 +3370,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.6",
+            "version": "v3.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "d3c9ed479b9c53252c9b29b0003e2284ee300e68"
+                "reference": "05676700555b3a9c9565d29b63b65d893ca55810"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/d3c9ed479b9c53252c9b29b0003e2284ee300e68",
-                "reference": "d3c9ed479b9c53252c9b29b0003e2284ee300e68",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/05676700555b3a9c9565d29b63b65d893ca55810",
+                "reference": "05676700555b3a9c9565d29b63b65d893ca55810",
                 "shasum": ""
             },
             "require": {
@@ -3441,7 +3441,17 @@
                 "laravel",
                 "statamic"
             ],
-            "time": "2020-09-07T21:26:26+00:00"
+            "support": {
+                "issues": "https://github.com/statamic/cms/issues",
+                "source": "https://github.com/statamic/cms/tree/v3.0.12"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/statamic",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-09-22T21:09:51+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -8189,5 +8199,6 @@
     "platform": {
         "php": "^7.2.5"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }

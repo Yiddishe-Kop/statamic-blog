@@ -1,0 +1,11 @@
+title: Main
+collections:
+  - pages
+  - blog
+  - projects
+max_depth: 2
+tree:
+  -
+    entry: home
+  -
+    entry: 2e2019c6-8b4c-493e-95c5-5c3895999d05

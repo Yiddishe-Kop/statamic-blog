@@ -1,5 +1,7 @@
 ---
 title: Home
+template: home
+updated_by: ff6b3e54-ed32-4e7f-9dfd-cbf3d18cd334
+updated_at: 1604575788
 id: home
-template: blog.index
 ---

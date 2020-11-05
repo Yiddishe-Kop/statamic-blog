@@ -1,16 +1,16 @@
-<article class="max-w-5xl mx-auto px-3">
-    <header class="mx-auto max-w-3xl text-center content">
+<article class="max-w-5xl px-3 mx-auto">
+    <header class="max-w-3xl mx-auto text-center content">
         <h1>{{ title }}</h1>
         {{ intro }}
-        <div class="my-12 flex items-center justify-center">
+        <div class="flex items-center justify-center my-12">
             {{ if author }}
-            <img src="{{ author:avatar ?? author:email | gravatar:160 }}" class="h-20 w-20 my-0 rounded-full mr-4">
+            <img src="{{ author:avatar ?? author:email | gravatar:160 }}" class="w-20 h-20 my-0 mr-4 rounded-full">
             {{ /if }}
             <div class="text-left">
                 {{ if author }}
                 <div>
                     <a class="font-bold no-underline" href="/authors/{{ author:handle }}">
-                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-hot-pink to-purple-500">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-hot-pink to-purple-500">
                             {{ author:name }}
                         </span>
                     </a>
@@ -21,7 +21,7 @@
         </div>
     </header>
     <img class="rounded-xl" src="{{ hero_image }}" alt="">
-    <section class="max-w-3xl mx-auto py-6 lg:py-12 content">
+    <section class="max-w-3xl py-6 mx-auto lg:py-12 content">
         {{ main_content }}
             {{ if type == "text" }}
                 {{ text }}
